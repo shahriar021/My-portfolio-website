@@ -48,6 +48,8 @@ a.active,a:hover{
 img{
    width:300px;
    height:300px;
+    background-color: transparent;
+    margin-left: 60px;;
    
     
 }
@@ -98,15 +100,53 @@ label.logo:hover{
 }
 
 h1{
-    background: #8E006B;
+    background-color: transparent;
+    color: #8e0000;
     font-family: 'Courier New', Courier, monospace;
         
 }
 
 h1:hover{
-    background: #008000;
+    color: #008000;
     transition: .5s;
 }
 p{
-    color: white;
+    background-color: transparent;
+    color: rgb(246, 240, 240);
+}
+.skills{
+    width:500px;
+    height:300px;
+}
+.aboutme{
+    width: 500px;
+}
+.photo{
+    width:500px;
+}
+.mainbox{
+    width:100%;
+}
+.column {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: transparent;
+    float: left;
+    width: 33.33%;
+    height:500px;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+#a1{
+    font-size: 50px;
+    background-color: transparent;
+    padding:50px;
+    padding-bottom: 25px;
 }
