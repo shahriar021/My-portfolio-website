@@ -4,7 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background:#020608;
+    < !-- background:#020608; -->
 
 }
 nav{
@@ -130,7 +130,7 @@ p{
 .column {
     margin-top: 50px;
     padding: 20px;
-    background-color: transparent;
+    background-color: black;
     float: left;
     width: 33.33%;
     height:500px;
@@ -148,5 +148,31 @@ p{
     font-size: 50px;
     background-color: transparent;
     padding:50px;
+    padding-bottom: 25px;
+}
+.btn{
+    width:150px;
+    height:30px;
+    background-color:#8e0000;
+    color: #fff;
+}
+.cntact{
+    margin-top:200px;
+    margin-bottom:40px;
+}
+.column-2 {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: black;
+    float: left;
+    width: 33.33%;
+    height: 300px;
+    border: 1px solid rgb(218, 15, 15);
+}
+#a2 {
+    font-size: 30px;
+    background-color: transparent;
+    color: #fff;
+    padding: 50px;
     padding-bottom: 25px;
 }
